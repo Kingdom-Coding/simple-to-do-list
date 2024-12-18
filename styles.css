@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  align-items: baseline;
+  justify-content: center;
+  height: 100svh;
+  margin-top: 3em;
+}
+
+main {
+  display: grid;
+  height: min-content;
+  gap: 1em;
+}
+
+h1,
+#message {
+  text-align: center;
+}
+
+#error-message {
+  visibility: hidden;
+}
+
+input {
+  padding-block: 2px;
+  color: rgb(58, 42, 42);
+  font-size: 14px;
+}
+
+#add-item-btn {
+  display: inline;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: hsl(187, 38%, 77%);
+}
+
+#add-item-btn:hover {
+  cursor: pointer;
+}
+
+#list {
+  position: relative;
+  left: 25px;
+}
+
+.item {
+  margin: 0.5em;
+}
+
+li > crossOutButton {
+  color: hsl(188, 47%, 15%);
+
+  float: right;
+  cursor: pointer;
+}
+
+li {
+  padding: 5px;
+  cursor: pointer;
+}
