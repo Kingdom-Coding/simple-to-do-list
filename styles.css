@@ -63,3 +63,8 @@ li {
   padding: 5px;
   cursor: pointer;
 }
+
+.strike {
+  text-decoration: line-through;
+  color: rgb(153, 153, 153)
+}
